@@ -7,8 +7,8 @@ public class Main {
     }
 
     public static void printArray(String[] hello) {
-        for (int i = 0; i < hello.length; i++) {
-            System.out.println(hello[i]);
+        for (String i : hello) {
+            System.out.println(i);
         }
     }
 }
