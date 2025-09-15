@@ -9,6 +9,9 @@ public class Main {
         //Print max number from Array
         int[] numbers = {1, 10, 15, 20, 3, 44, 51, 40};
         System.out.println("The max number of the array is: " + findMax(numbers));
+
+        //RETURN BIGGEST DOUBLE VALUE
+        System.out.println("Biggest number: " + findBiggest(9.3, 9.4));
     }
 
     //ARRAY PRINTER
@@ -27,5 +30,10 @@ public class Main {
             }
         }
         return max;
+    }
+
+    //BIGGEST DOUBLE VALUE
+    public static double findBiggest(double num1, double num2) {
+        return (num1 > num2) ? num1 : num2;
     }
 }
