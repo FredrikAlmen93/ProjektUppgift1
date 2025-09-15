@@ -2,16 +2,19 @@ package se.iths.fredrik.projekt;
 
 public class Main {
     public static void main(String[] args) {
-        //Print Array iterations, one at a time
+        //PRINT ARRAY INDEXES ONE AT A TIME
         String[] greeting = {"Hello", "world", "!"};
         printArray(greeting);
 
-        //Print max number from Array
+        //PRINT MAX NUMBER FROM ARRAY
         int[] numbers = {1, 10, 15, 20, 3, 44, 51, 40};
         System.out.println("The max number of the array is: " + findMax(numbers));
 
         //RETURN BIGGEST DOUBLE VALUE
-        System.out.println("Biggest number: " + findBiggest(9.3, 9.4));
+        System.out.println("Biggest number: " + findBiggest(9.3, 9.1));
+
+        //NAME PRINTER
+        namePrinter("Fredrik", "Almen");
     }
 
     //ARRAY PRINTER
@@ -35,5 +38,10 @@ public class Main {
     //BIGGEST DOUBLE VALUE
     public static double findBiggest(double num1, double num2) {
         return (num1 > num2) ? num1 : num2;
+    }
+
+    //FIRST/LAST-NAME PRINTER
+    public static void namePrinter(String fName, String lName) {
+        System.out.println(fName + " " + lName);
     }
 }
