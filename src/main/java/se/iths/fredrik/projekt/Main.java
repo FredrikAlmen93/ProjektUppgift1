@@ -41,7 +41,7 @@ public class Main {
     }
 
     //FIRST/LAST-NAME PRINTER
-    public static void namePrinter(String fName, String lName) {
-        System.out.println(fName + " " + lName);
+    public static void namePrinter(String firstName, String lastName) {
+        System.out.println(firstName + " " + lastName);
     }
 }
