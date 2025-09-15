@@ -27,7 +27,7 @@ public class Main {
     //MAX NUMBER FINDER
     public static int findMax(int[] maxArray) {
         int max = maxArray[0];
-        for (int i = 0; i < maxArray.length; i++) {
+        for (int i = 1; i < maxArray.length; i++) {
             if (maxArray[i] > max) {
                 max = maxArray[i];
             }
